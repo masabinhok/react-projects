@@ -1,13 +1,18 @@
+INITIATE A VITE-REACT-APP
 npm create vite@latest
 project-name
 select a framework: React
 select a variant: JavaScript
 
+
+INSTALL DEPENDENCIES
 cd project-name
 npm install
+
+LOCALHOST
 npm run dev
 
-
+PRODUCTION READY
 npm run build
 npm run preview
 
