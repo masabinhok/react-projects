@@ -1,8 +1,10 @@
 import React from "react";
-// import NumberList from "./components/NumberList.jsx";
-// //
-// import EventInfo from "./components/EventInfo";
-import PreventDefault from "./components/PreventDefault";
+import Practice from "./useEffect/practice.jsx";
+
 export default function App() {
-  return <PreventDefault />;
+  return (
+    <>
+      <Practice />
+    </>
+  );
 }
