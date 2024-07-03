@@ -12,7 +12,7 @@ const Home = () => {
         />
       </div>
       <div className="relative  flex-col flex w-half p-20 items-start font-bold font-montserrat max-xl:bg-black  max-xl:bg-opacity-50">
-        <h1 className="text-[100px] text-white max-xl:text-[80px] max-xl:py-2">
+        <h1 className="text-[100px] text-white max-xl:text-[80px] max-xl:py-2 max-sm:text-[50px] ">
           About <span className="text-red-600">Us</span>
         </h1>
         <h2 className="text-[20px] font-mono mt-[-20px] text-gray-300 max-xl:text-[18px]  ">
@@ -25,10 +25,7 @@ const Home = () => {
           freshest ingredients to create our hand-tossed pizzas, rich in flavor
           and generous with toppings. Whether you’re in the mood for a classic
           Margherita or something more adventurous, our menu has something for
-          everyone. Our commitment to quality and customer satisfaction sets us
-          apart, and we strive to provide an exceptional dining experience for
-          every guest. Thank you for choosing Pizza Ghar—we look forward to
-          serving you!
+          everyone.
         </p>
         <Link to="/contact">
           <button className="mt-8 px-6 py-3 bg-red-600 text-white text-lg rounded-full hover:bg-red-700">

@@ -1,5 +1,6 @@
 import { pizza1 } from "../assets";
-
+import Button from "../components/Button";
+import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <section className="w-full h-screen flex items-center justify-center relative">
@@ -11,7 +12,7 @@ const Home = () => {
         />
       </div>
       <div className="relative p-8 flex-col flex w-full items-center font-bold font-montserrat bg-black bg-opacity-50">
-        <h1 className="text-[100px] text-white">
+        <h1 className="text-[100px] text-white max-sm:text-[50px] max-sm:p-4">
           Pizza <span className="text-red-600">Ghar</span>
         </h1>
         <h2 className="text-[20px] font-mono mt-[-20px] text-black ">
@@ -23,9 +24,7 @@ const Home = () => {
           a variety of delicious toppings to satisfy all your cravings. Come and
           experience the taste of authentic pizza at Pizza Ghar!
         </p>
-        <button className="mt-8 px-6 py-3 bg-red-600 text-white text-lg rounded-full hover:bg-red-700">
-          Order Now
-        </button>
+       <Link to='/menu'><Button name="Order Now"/></Link> 
       </div>
     </section>
   );
